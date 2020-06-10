@@ -15,9 +15,7 @@ class SecondPersonsListTableViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let nav = tabBarController?.viewControllers![0] as! UINavigationController
-    let vc = nav.viewControllers[0] as! PersonsListTableViewController
-    personList = vc.personList
+    personList = (tabBarController as! TabBarController).personList
   }
   
   // MARK: - Table view data source
@@ -44,11 +42,9 @@ class SecondPersonsListTableViewController: UITableViewController {
     case 0:
       cell.textLabel?.text = personList[indexPath.section].phone
       cell.imageView?.image = UIImage.init(systemName: "phone")
-    case 1:
+    default:
       cell.textLabel?.text = personList[ indexPath.section].email
       cell.imageView?.image = UIImage.init(systemName: "tray")
-    default:
-      print("Error")
     }
     
     return cell

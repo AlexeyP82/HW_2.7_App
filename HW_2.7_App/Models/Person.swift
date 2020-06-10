@@ -20,10 +20,6 @@ struct Person {
 extension Person {
   static func getPersonList() -> [Person] {
     let data = DataManager()
-    data.names.shuffle()
-    data.surnames.shuffle()
-    data.phones.shuffle()
-    data.emails.shuffle()
     
     var persons: [Person] = []
     

@@ -10,7 +10,13 @@ import UIKit
 
 class PersonsListTableViewController: UITableViewController {
   
-  let personList = Person.getPersonList()
+  var personList: [Person]!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    personList = (tabBarController as! TabBarController).personList
+  }
   
   // MARK: - Table view data source
   override func tableView(_ tableView: UITableView,

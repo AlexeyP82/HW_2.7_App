@@ -17,6 +17,7 @@
 		D83DF0F124901BCF00BAE75C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F024901BCF00BAE75C /* DataManager.swift */; };
 		D83DF0F324902A0000BAE75C /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */; };
 		D83DF0F52490348100BAE75C /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */; };
+		D8A8441E24912AF200C715E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8441D24912AF200C715E7 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D83DF0F024901BCF00BAE75C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
 		D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
+		D8A8441D24912AF200C715E7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 		D83DF0D2249009E300BAE75C /* HW_2.7_App */ = {
 			isa = PBXGroup;
 			children = (
+				D8A8441C2491270300C715E7 /* Managers */,
 				D83DF0ED24900CEE00BAE75C /* Models */,
+				D83DF0EA24900AA500BAE75C /* Sources */,
+				D83DF0E924900A8D00BAE75C /* Storyboards */,
 				D83DF0E724900A5800BAE75C /* SupportingFiles */,
 				D83DF0E824900A7300BAE75C /* ViewControllers */,
-				D83DF0E924900A8D00BAE75C /* Storyboards */,
-				D83DF0EA24900AA500BAE75C /* Sources */,
 			);
 			path = HW_2.7_App;
 			sourceTree = "<group>";
@@ -86,9 +89,10 @@
 		D83DF0E824900A7300BAE75C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D83DF0EB24900BFD00BAE75C /* PersonsListTableViewController.swift */,
 				D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */,
+				D83DF0EB24900BFD00BAE75C /* PersonsListTableViewController.swift */,
 				D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */,
+				D8A8441D24912AF200C715E7 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,9 +118,16 @@
 			isa = PBXGroup;
 			children = (
 				D83DF0EE24900D0D00BAE75C /* Person.swift */,
-				D83DF0F024901BCF00BAE75C /* DataManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D8A8441C2491270300C715E7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0F024901BCF00BAE75C /* DataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83DF0F52490348100BAE75C /* SecondPersonsListTableViewController.swift in Sources */,
+				D8A8441E24912AF200C715E7 /* TabBarController.swift in Sources */,
 				D83DF0EF24900D0D00BAE75C /* Person.swift in Sources */,
 				D83DF0F124901BCF00BAE75C /* DataManager.swift in Sources */,
 				D83DF0F324902A0000BAE75C /* DetailPersonViewController.swift in Sources */,

@@ -7,7 +7,7 @@
 //
 
 class DataManager {
-  var names = ["Alex",
+  let names = ["Alex",
                "Bob",
                "John",
                "Andy",
@@ -16,7 +16,7 @@ class DataManager {
                "Aaron",
                "Tim",
                "Allan",
-               "Ted"]
+               "Ted"].shuffled()
   var surnames = ["Black",
                   "Grey",
                   "Brown",
@@ -26,7 +26,7 @@ class DataManager {
                   "Murphy",
                   "Williams",
                   "Obama",
-                  "Trump"]
+                  "Trump"].shuffled()
   var phones = ["123-456",
                 "234-567",
                 "345-678",
@@ -36,7 +36,7 @@ class DataManager {
                 "789-012",
                 "890-123",
                 "901-234",
-                "999-999"]
+                "999-999"].shuffled()
   var emails = ["a@mail.ru",
                 "b@mail.ru",
                 "c@mail.ru",
@@ -46,5 +46,5 @@ class DataManager {
                 "h@mail.ru",
                 "i@mail.ru",
                 "j@mail.ru",
-                "k@mail.ru"]
+                "k@mail.ru"].shuffled()
 }
