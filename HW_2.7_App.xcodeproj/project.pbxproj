@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D83DF0D4249009E300BAE75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0D3249009E300BAE75C /* AppDelegate.swift */; };
 		D83DF0D6249009E300BAE75C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0D5249009E300BAE75C /* SceneDelegate.swift */; };
-		D83DF0D8249009E300BAE75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0D7249009E300BAE75C /* ViewController.swift */; };
 		D83DF0DB249009E300BAE75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83DF0D9249009E300BAE75C /* Main.storyboard */; };
 		D83DF0DD249009E700BAE75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83DF0DC249009E700BAE75C /* Assets.xcassets */; };
 		D83DF0E0249009E700BAE75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83DF0DE249009E700BAE75C /* LaunchScreen.storyboard */; };
+		D83DF0EC24900BFD00BAE75C /* PersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0EB24900BFD00BAE75C /* PersonsListTableViewController.swift */; };
+		D83DF0EF24900D0D00BAE75C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0EE24900D0D00BAE75C /* Person.swift */; };
+		D83DF0F124901BCF00BAE75C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F024901BCF00BAE75C /* DataManager.swift */; };
+		D83DF0F324902A0000BAE75C /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */; };
+		D83DF0F52490348100BAE75C /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D83DF0D0249009E300BAE75C /* HW_2.7_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_2.7_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83DF0D3249009E300BAE75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83DF0D5249009E300BAE75C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D83DF0D7249009E300BAE75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D83DF0DA249009E300BAE75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D83DF0DC249009E700BAE75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83DF0DF249009E700BAE75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83DF0E1249009E700BAE75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83DF0EB24900BFD00BAE75C /* PersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListTableViewController.swift; sourceTree = "<group>"; };
+		D83DF0EE24900D0D00BAE75C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D83DF0F024901BCF00BAE75C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
+		D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		D83DF0D2249009E300BAE75C /* HW_2.7_App */ = {
 			isa = PBXGroup;
 			children = (
-				D83DF0D3249009E300BAE75C /* AppDelegate.swift */,
-				D83DF0D5249009E300BAE75C /* SceneDelegate.swift */,
-				D83DF0D7249009E300BAE75C /* ViewController.swift */,
-				D83DF0D9249009E300BAE75C /* Main.storyboard */,
-				D83DF0DC249009E700BAE75C /* Assets.xcassets */,
-				D83DF0DE249009E700BAE75C /* LaunchScreen.storyboard */,
-				D83DF0E1249009E700BAE75C /* Info.plist */,
+				D83DF0ED24900CEE00BAE75C /* Models */,
+				D83DF0E724900A5800BAE75C /* SupportingFiles */,
+				D83DF0E824900A7300BAE75C /* ViewControllers */,
+				D83DF0E924900A8D00BAE75C /* Storyboards */,
+				D83DF0EA24900AA500BAE75C /* Sources */,
 			);
 			path = HW_2.7_App;
+			sourceTree = "<group>";
+		};
+		D83DF0E724900A5800BAE75C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0D3249009E300BAE75C /* AppDelegate.swift */,
+				D83DF0D5249009E300BAE75C /* SceneDelegate.swift */,
+				D83DF0E1249009E700BAE75C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D83DF0E824900A7300BAE75C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0EB24900BFD00BAE75C /* PersonsListTableViewController.swift */,
+				D83DF0F224902A0000BAE75C /* DetailPersonViewController.swift */,
+				D83DF0F42490348100BAE75C /* SecondPersonsListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D83DF0E924900A8D00BAE75C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0D9249009E300BAE75C /* Main.storyboard */,
+				D83DF0DE249009E700BAE75C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D83DF0EA24900AA500BAE75C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0DC249009E700BAE75C /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D83DF0ED24900CEE00BAE75C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D83DF0EE24900D0D00BAE75C /* Person.swift */,
+				D83DF0F024901BCF00BAE75C /* DataManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83DF0D8249009E300BAE75C /* ViewController.swift in Sources */,
+				D83DF0F52490348100BAE75C /* SecondPersonsListTableViewController.swift in Sources */,
+				D83DF0EF24900D0D00BAE75C /* Person.swift in Sources */,
+				D83DF0F124901BCF00BAE75C /* DataManager.swift in Sources */,
+				D83DF0F324902A0000BAE75C /* DetailPersonViewController.swift in Sources */,
+				D83DF0EC24900BFD00BAE75C /* PersonsListTableViewController.swift in Sources */,
 				D83DF0D4249009E300BAE75C /* AppDelegate.swift in Sources */,
 				D83DF0D6249009E300BAE75C /* SceneDelegate.swift in Sources */,
 			);
@@ -286,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA7A4E4NVT;
-				INFOPLIST_FILE = HW_2.7_App/Info.plist;
+				INFOPLIST_FILE = HW_2.7_App/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.IndependentDeveloper.HW-2-7-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA7A4E4NVT;
-				INFOPLIST_FILE = HW_2.7_App/Info.plist;
+				INFOPLIST_FILE = HW_2.7_App/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.IndependentDeveloper.HW-2-7-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
